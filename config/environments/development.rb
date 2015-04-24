@@ -40,7 +40,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = '<staticpagenew>.herokuapp.com'
+  host = 'staticpagenew.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
